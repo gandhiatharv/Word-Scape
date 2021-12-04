@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 // ********** LOGIC FOR HOME PAGE **********
 // Notifies the user of characters remaining in ownDefinition
-var text_max = 500;
+var text_max = 5000;
 $("#textarea_feedback").html("Characters remaining: " + text_max);
 $("#ownDefinition").keyup(function() {
     var text_length = $("#ownDefinition").val().length;
